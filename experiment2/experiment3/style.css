@@ -1,0 +1,278 @@
+
+/* Basic Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* Main Form */
+main {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Fieldset */
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Legend */
+legend {
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+}
+
+/* Textarea */
+textarea {
+    min-height: 80px;
+}
+
+/* Radio and Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 10px 5px;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid black;
+}
+
+/* Mobile Layout */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    fieldset {
+        padding: 12px;
+    }
+}
+
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f4ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 15px;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+/* Main Form Container */
+main {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Fieldsets */
+fieldset {
+    margin-bottom: 22px;
+    padding: 20px;
+    border: 2px solid #d6dcf5;
+    border-radius: 10px;
+    background: #fafbff;
+}
+
+legend {
+    padding: 7px 12px;
+    font-weight: bold;
+    color: #5b50a5;
+    background: #e9e7ff;
+    border-radius: 6px;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    margin: 8px 5px 8px 0;
+    font-weight: 500;
+}
+
+/* Text Inputs, Select and Textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin: 8px 0 16px;
+    box-sizing: border-box;
+    border: 1px solid #c9cde0;
+    border-radius: 6px;
+    font-size: 14px;
+    background: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 4px rgba(102, 126, 234, 0.35);
+}
+
+/* Textarea */
+textarea {
+    min-height: 85px;
+    resize: vertical;
+}
+
+/* Radio Buttons and Checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #6c63c7;
+    margin: 10px 5px;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    padding: 12px 28px;
+    margin: 8px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.2s, transform 0.2s;
+}
+
+button[type="submit"] {
+    background: #667eea;
+    color: white;
+}
+
+button[type="reset"] {
+    background: #e0e3ed;
+    color: #333;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button[type="submit"]:hover {
+    background: #4e5ec7;
+}
+
+button[type="reset"]:hover {
+    background: #cbd0df;
+}
+
+/* Success Message */
+#successMessage {
+    display: none;
+    text-align: center;
+    padding: 14px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background: #d9f5e4;
+    color: #176b39;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 18px;
+    background: #333b5c;
+    color: white;
+}
+
+/* Mobile Responsive Layout */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+        margin: 15px auto;
+    }
+
+    form {
+        padding: 12px;
+    }
+
+    fieldset {
+        padding: 12px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    button {
+        width: 100%;
+        margin: 7px 0;
+    }
+}
